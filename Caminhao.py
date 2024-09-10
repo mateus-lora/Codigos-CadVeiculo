@@ -1,4 +1,5 @@
 from Veiculo import Veiculo
+
 class Caminhao(Veiculo):
     def __init__(self, marca, modelo, placa, ano, capacidade):
         super().__init__(marca, modelo, placa, ano)
@@ -8,5 +9,5 @@ class Caminhao(Veiculo):
         return f'''{retorno}
  - Capacidade: {self.__capacidade}'''
 
-bicudo = Caminhao("Mercedes", "1113", "ABC", 1993, 8150)
-print(bicudo)
+#bicudo = Caminhao("Mercedes", "1113", "ABC", 1993, 8150)
+#print(bicudo)

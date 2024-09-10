@@ -1,5 +1,5 @@
 class Veiculo:
-    #__init__ -> é o método construtor
+    #__init__ => é o método construtor
     def __init__(self, marca, modelo, placa, ano):
         self.__marca = marca
         self.__modelo = modelo
