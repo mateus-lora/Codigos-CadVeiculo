@@ -7,7 +7,7 @@ class Caminhao(Veiculo):
     def __str__(self):
         retorno = super().__str__()
         return f'''{retorno}
- - Capacidade: {self.__capacidade}'''
+ - Capacidade de carga: {self.__capacidade}'''
 
 #bicudo = Caminhao("Mercedes", "1113", "ABC", 1993, 8150)
 #print(bicudo)

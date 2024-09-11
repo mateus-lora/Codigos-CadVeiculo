@@ -25,7 +25,7 @@ def cadastrar():
         cilindradas = input("Digite as cilindradas: ")
         veiculoAdd = Moto(marca, modelo, placa, ano, cilindradas)
     elif tipo == "3":
-        capacidade = input("Digite a capacidade: ")
+        capacidade = input("Digite a capacidade de carga: ")
         veiculoAdd = Caminhao(marca, modelo, placa, ano, capacidade)
     listaVeiculos.append(veiculoAdd)
     
